@@ -1,0 +1,1 @@
+../../../BURelyFoundation/Frameworks/SDK/BURelyFoundationYYModel/Headers/BUYYClassInfo.h

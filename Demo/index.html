@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <button style="width: 400px;height:200px;" onclick="zCall()">直接调用</button>
+    <script>
+      const wisetv = function () {
+        const obj = Object()
+        obj.getUserInfo = ({success, fail}) => {
+          let successFuncName = `getUserInfo_success_${new Date().getTime()}`
+          window[successFuncName] = success
+          let failFuncName = `getUserInfo_fail_${new Date().getTime()}`
+          window[failFuncName] = fail
+          console.log(window[successFuncName], window[failFuncName])
+          
+          window.webkit.messageHandlers.wisetv.postMessage({
+            func: 'wisetv',
+            success: successFuncName,
+            fail: failFuncName,
+          })
+        }
+
+        obj.callback = (callback, res) => {
+          window[callback](res)
+
+          delete window[callback]
+        }
+
+        return obj
+      }()
+        
+      function zCall() {
+        console.log("zcall...")
+        wisetv.getUserInfo({
+          success(res) {
+            alert('获取用户信息: ', res)
+          },
+          fail(err) {
+            alert('获取用户信息错误: ', err)
+          }
+        })
+      }
+    </script>
+  </body>
+</html>

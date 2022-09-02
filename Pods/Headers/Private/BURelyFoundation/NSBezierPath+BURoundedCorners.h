@@ -1,0 +1,1 @@
+../../../BURelyFoundation/Frameworks/SDK/BURelyFoundationSDWebImage/Headers/NSBezierPath+BURoundedCorners.h

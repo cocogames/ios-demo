@@ -1,0 +1,1179 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0F579E3E153CBD596F3B5F69CBA65B1B /* BUAdSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = DCD0F383E66C68B975C6A1C2A675EF1E /* Build configuration list for PBXAggregateTarget "BUAdSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BUAdSDK;
+		};
+		726ABAA3B995C2690CAF752FB08ABF6D /* Ads-CN */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B9377795273F8334AFFC68D922FA05A7 /* Build configuration list for PBXAggregateTarget "Ads-CN" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F7B777DFA0ACC0C5D1944CF21E599687 /* PBXTargetDependency */,
+				8CB2527EBC21D495017481551DF0E765 /* PBXTargetDependency */,
+			);
+			name = "Ads-CN";
+		};
+		A30112D48286DC34DCEF944BC33E1EC9 /* BURelyFoundation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D24D7FB89D400077893F73BF4C40BCEA /* Build configuration list for PBXAggregateTarget "BURelyFoundation" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BURelyFoundation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		9F3C4C750F9B28F72AD892A8476738B2 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DDE35F69714F9EEBA5E990B49B9DDA /* Pods-Demo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27DACD92EA06615C884EF0E22B1060D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30112D48286DC34DCEF944BC33E1EC9;
+			remoteInfo = BURelyFoundation;
+		};
+		8E990DD3034D4CE7572147A48C476BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F579E3E153CBD596F3B5F69CBA65B1B;
+			remoteInfo = BUAdSDK;
+		};
+		BC37B4A1B56EE95CAB3D88B4241E214F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 726ABAA3B995C2690CAF752FB08ABF6D;
+			remoteInfo = "Ads-CN";
+		};
+		C30ADD20C44F1F81C24E87A732C3BB2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F579E3E153CBD596F3B5F69CBA65B1B;
+			remoteInfo = BUAdSDK;
+		};
+		DC633147CB5A760067F69D1595A96F10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30112D48286DC34DCEF944BC33E1EC9;
+			remoteInfo = BURelyFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006F6DAE4D744086D8E13CC7504CDB3B /* BU_AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_AFURLSessionManager.h; path = Frameworks/SDK/BURelyFoundationAFN/Headers/BU_AFURLSessionManager.h; sourceTree = "<group>"; };
+		0208BC42BF9FBDBDDF525F7A0572FEAB /* BU_SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageTransition.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageTransition.h; sourceTree = "<group>"; };
+		0393D8AF37F53AF02CA38661D1355B6E /* BU_SDImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageFrame.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageFrame.h; sourceTree = "<group>"; };
+		03E30FB393C99A9085C59C48F595CE7A /* BU_SDWebImageError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageError.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageError.h; sourceTree = "<group>"; };
+		049D3E3B250FEF55173F514CC2F8CF9C /* UIImage+BUMemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BUMemoryCacheCost.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIImage+BUMemoryCacheCost.h"; sourceTree = "<group>"; };
+		0A88F86FC349233FEA49FB04E6A6EF06 /* BUGifImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUGifImageView.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUGifImageView.h; sourceTree = "<group>"; };
+		0B7C86EBB15A3A36D256F3B0899C038A /* Ads-CN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ads-CN.debug.xcconfig"; sourceTree = "<group>"; };
+		0B8A471A414452D4F7E5516A47503170 /* BU_SDImageAssetManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageAssetManager.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageAssetManager.h; sourceTree = "<group>"; };
+		0D10400DD78B626EF8966243FDBF7022 /* BULogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BULogMacros.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BULogMacros.h; sourceTree = "<group>"; };
+		1015CC6843EED8B82E84ED840AEB47C4 /* BUWebViewApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUWebViewApplication.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUWebViewApplication.h; sourceTree = "<group>"; };
+		10367720EC46C7D4D28760F41C1DD9FC /* UIImageView+BUWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+BUWebCache.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIImageView+BUWebCache.h"; sourceTree = "<group>"; };
+		118EBB5270762935AABFF14A06875717 /* libBURelyFoundationFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationFoundation.a; path = Frameworks/SDK/BURelyFoundationFoundation/libBURelyFoundationFoundation.a; sourceTree = "<group>"; };
+		1205E9ADA78178DC79DEF441FF150A5A /* BUYYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUYYClassInfo.h; path = Frameworks/SDK/BURelyFoundationYYModel/Headers/BUYYClassInfo.h; sourceTree = "<group>"; };
+		138352C3CE5E97A6FEB383992E3B835B /* BUConditionTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUConditionTracker.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUConditionTracker.h; sourceTree = "<group>"; };
+		14379037891A6C37EE0FBC724057F784 /* BU_SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageCacheKeyFilter.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
+		14EE9097DA97413D48070D8A79EEEE23 /* BU_SDImageSVGKCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageSVGKCoder.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageSVGKCoder.h; sourceTree = "<group>"; };
+		14FC51DB20F5D97980429CEDAF2D8BEF /* BUCommonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUCommonMacros.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUCommonMacros.h; sourceTree = "<group>"; };
+		154A6494DB34406A4EC08999A9B3E718 /* BU_SDImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageCodersManager.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageCodersManager.h; sourceTree = "<group>"; };
+		162A846380723A1F40EA26C30EF31EEC /* BU_ZipArchiveUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_ZipArchiveUtility.h; path = Frameworks/SDK/BURelyFoundationZip/Headers/BU_ZipArchiveUtility.h; sourceTree = "<group>"; };
+		16F0049187D0A8964C30CFFA3B13DDFE /* BU_SDMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDMemoryCache.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDMemoryCache.h; sourceTree = "<group>"; };
+		1735BFD94E6BD7B6A321158B5283027A /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		185F3280F6C473E58F4915EDF337D1D2 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18E6798D01D7ECC4CE981BC21907C242 /* BU_SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageDownloaderOperation.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		19610B69F49BF024EA7234F260191B86 /* BURouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BURouter.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BURouter.h; sourceTree = "<group>"; };
+		1A6232ADDEF9FAD54B5491243E0530B4 /* BU_SDImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageGIFCoder.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageGIFCoder.h; sourceTree = "<group>"; };
+		1B0EBFDA2D80D0B051445B83405E5732 /* BUJSInjectorRule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUJSInjectorRule.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUJSInjectorRule.h; sourceTree = "<group>"; };
+		1D48DC06CC2AE8A5893975F0414002D1 /* BU_SDAsyncBlockOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDAsyncBlockOperation.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDAsyncBlockOperation.h; sourceTree = "<group>"; };
+		1EFFE737E84B0FC51A04B49A27E4C050 /* BU_SDImageLoadersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageLoadersManager.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageLoadersManager.h; sourceTree = "<group>"; };
+		204AD884BA301BCBF3F18B5FF848A76F /* BUTNCRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUTNCRequest.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUTNCRequest.h; sourceTree = "<group>"; };
+		22156B7437940D5DB563BAE1EAA3EEAC /* BURuntimeUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BURuntimeUtil.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BURuntimeUtil.h; sourceTree = "<group>"; };
+		22AEB017594C63F9549ADA3A647A6410 /* BUFoundationAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUFoundationAddress.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUFoundationAddress.h; sourceTree = "<group>"; };
+		232258A62092FE10444B459DB6B4905E /* BUZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUZipCommon.h; path = Frameworks/SDK/BURelyFoundationZip/Headers/BUZipCommon.h; sourceTree = "<group>"; };
+		238FB3014C683E8486FC3F18D7C90CB5 /* BUEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUEnvironment.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUEnvironment.h; sourceTree = "<group>"; };
+		23DF67EF3437C51296E23998F75BFCE6 /* BUCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUCacheManager.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUCacheManager.h; sourceTree = "<group>"; };
+		242A6E3EAAB5A551AFA24AEBB0290AA1 /* UIImage+BUCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BUCommon.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/UIImage+BUCommon.h"; sourceTree = "<group>"; };
+		257C791AD48D7442E63C62C0BEDD567C /* BUNetworkRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUNetworkRequest.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUNetworkRequest.h; sourceTree = "<group>"; };
+		257EF127A96A906630B3C1D7B1EA898F /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		26F8271D2E3D59118FA815EE4B4C9218 /* BUWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUWKWebView.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUWKWebView.h; sourceTree = "<group>"; };
+		271045885C9C7E8701EF7F75F48DA0AA /* UIView+BUWebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BUWebCacheOperation.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIView+BUWebCacheOperation.h"; sourceTree = "<group>"; };
+		29603F12E3D40C2B43639CF3F23D00A2 /* BUBaseRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUBaseRequest.h; path = Frameworks/SDK/BURelyFoundationNETWork/Headers/BUBaseRequest.h; sourceTree = "<group>"; };
+		2B1A2013BD085FA700B78AE8BE15B278 /* NSButton+BUWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+BUWebCache.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/NSButton+BUWebCache.h"; sourceTree = "<group>"; };
+		2C11A92AC8EF3DBA16A73972C3AC8DB3 /* BU_SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageCache.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageCache.h; sourceTree = "<group>"; };
+		2DDB880E7F450E307687168739990F5D /* BUJSBCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUJSBCommand.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUJSBCommand.h; sourceTree = "<group>"; };
+		302DDF1F1326BBA8E6FDD0A8EF85B03F /* BU_SDDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDDiskCache.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDDiskCache.h; sourceTree = "<group>"; };
+		30E16A53E3CBEF66256FDDA13485A376 /* BU_SDWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWeakProxy.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWeakProxy.h; sourceTree = "<group>"; };
+		310C6F3E1304FBB563B31464BF2FE954 /* BUTNCRequestParam.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUTNCRequestParam.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUTNCRequestParam.h; sourceTree = "<group>"; };
+		364B9B5D4180E2AB2B38E64AE29184EC /* BUPlayerItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUPlayerItem.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUPlayerItem.h; sourceTree = "<group>"; };
+		395C9DAE848A8E527570E2A68200EB80 /* UIWindow+BUUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+BUUtilities.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/UIWindow+BUUtilities.h"; sourceTree = "<group>"; };
+		39B2C27682CA67DC8429E06DF0436D0F /* NSTimer+BUBlockSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+BUBlockSupport.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSTimer+BUBlockSupport.h"; sourceTree = "<group>"; };
+		3CD0AA71D8DDE3A945F7BF6B5B704C15 /* BU_ZFPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_ZFPlayer.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BU_ZFPlayer.h; sourceTree = "<group>"; };
+		4675AFC1C03E354D3398A9AEAE07AE98 /* BUJSBForwarding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUJSBForwarding.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUJSBForwarding.h; sourceTree = "<group>"; };
+		49FFB49A22F6827388F019474BB53B12 /* UIView+BUWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BUWebCache.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIView+BUWebCache.h"; sourceTree = "<group>"; };
+		4E39BE2E60081C59B327A7DB81F4C92D /* UIView+BUAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+BUAdditions.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/UIView+BUAdditions.h"; sourceTree = "<group>"; };
+		50A1FEE906AC29F2543CB7D50ADCF72E /* UIImageView+BUHighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+BUHighlightedWebCache.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIImageView+BUHighlightedWebCache.h"; sourceTree = "<group>"; };
+		51DDD80011CA0689B4A562438AC0C943 /* BU_SDImageCachesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageCachesManager.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageCachesManager.h; sourceTree = "<group>"; };
+		51E17A77B801445C44F9035905D0183C /* libBURelyFoundationHeader.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationHeader.a; path = Frameworks/SDK/BURelyFoundationHeader/libBURelyFoundationHeader.a; sourceTree = "<group>"; };
+		55D096A12F5D6DFCE90C9630A6FC9E5D /* UIImage+BUTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BUTransform.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIImage+BUTransform.h"; sourceTree = "<group>"; };
+		57FFE1E306D4E96140531BB911B4E7F6 /* BUWebViewProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUWebViewProgressView.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUWebViewProgressView.h; sourceTree = "<group>"; };
+		583A9AA691E0E9E0BFD656A112501C83 /* NSUserDefaults+BUCrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSUserDefaults+BUCrypt.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSUserDefaults+BUCrypt.h"; sourceTree = "<group>"; };
+		58C646A878F5D9FB4AB2F334E2CC5E1B /* BU_SDImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageIOCoder.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageIOCoder.h; sourceTree = "<group>"; };
+		5AC48FFFDB0A0D7E94D63880E94235A6 /* BUAudioSessionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUAudioSessionHandler.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUAudioSessionHandler.h; sourceTree = "<group>"; };
+		5BCDF49F7F12B2A349F0E83C2FA5223D /* UIColor+BUHexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BUHexString.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIColor+BUHexString.h"; sourceTree = "<group>"; };
+		5D6796D7BE06E1AB645D908D86E34789 /* BU_SDAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDAnimatedImage.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDAnimatedImage.h; sourceTree = "<group>"; };
+		5EE2A45744B14958987177327225FFB9 /* Ads-CN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ads-CN.release.xcconfig"; sourceTree = "<group>"; };
+		60071EB8E3C719D6DE9146418D740851 /* BUThreadSafeDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUThreadSafeDictionary.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUThreadSafeDictionary.h; sourceTree = "<group>"; };
+		60DDE35F69714F9EEBA5E990B49B9DDA /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		619D639EFC3DFB059219E30B2B763CCF /* UIImage+BUMultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BUMultiFormat.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIImage+BUMultiFormat.h"; sourceTree = "<group>"; };
+		651CB5FDB8A4FF538EF9A1E96C54E0ED /* NSBezierPath+BURoundedCorners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBezierPath+BURoundedCorners.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/NSBezierPath+BURoundedCorners.h"; sourceTree = "<group>"; };
+		65B3C1D8B7A220F7014D1FEDAC9BAF76 /* BUUserAgentHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUUserAgentHelper.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUUserAgentHelper.h; sourceTree = "<group>"; };
+		65D7E58740B12E9D1C0059D261506521 /* BU_SDImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageCoderHelper.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageCoderHelper.h; sourceTree = "<group>"; };
+		66E61971642593E7C7655FB6B1760F85 /* BU_SDWebImageDownloaderConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageDownloaderConfig.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageDownloaderConfig.h; sourceTree = "<group>"; };
+		67828C390A1918A957C55280FC91A783 /* NSDate+BUCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+BUCommon.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSDate+BUCommon.h"; sourceTree = "<group>"; };
+		68A8BC01E582DAE7D13AC767BFB7FB92 /* BUReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUReachability.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUReachability.h; sourceTree = "<group>"; };
+		690D117130453EE0AFAEE85806AD519B /* libHM.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHM.a; path = Frameworks/SDK/HM/libHM.a; sourceTree = "<group>"; };
+		6E8D98F428B2AD9D13528F7DCCB5B751 /* BUPlayerInternalDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUPlayerInternalDefine.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUPlayerInternalDefine.h; sourceTree = "<group>"; };
+		6EA38CF3BD0E9C4B8183B55CFA19BC62 /* BU_SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageDownloader.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageDownloader.h; sourceTree = "<group>"; };
+		6F81FFFBF74C1FC9BB701BB356B0E14B /* UIButton+BUWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+BUWebCache.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIButton+BUWebCache.h"; sourceTree = "<group>"; };
+		74694EA5A56D3A47CDC523113A4355AC /* libBURelyFoundationAFN.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationAFN.a; path = Frameworks/SDK/BURelyFoundationAFN/libBURelyFoundationAFN.a; sourceTree = "<group>"; };
+		754B20F79CE24D568BD8E9FC589C461B /* BUNetworkAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUNetworkAgent.h; path = Frameworks/SDK/BURelyFoundationNETWork/Headers/BUNetworkAgent.h; sourceTree = "<group>"; };
+		7692595ED9FFB2D75E2469E5054F43C2 /* BUDeviceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUDeviceHelper.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUDeviceHelper.h; sourceTree = "<group>"; };
+		76CE60D4A6B439E22416206807A950D6 /* BU_SDImageCachesManagerOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageCachesManagerOperation.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageCachesManagerOperation.h; sourceTree = "<group>"; };
+		78659B7E9015076894B2F40FE48FB2B4 /* BU_SDImageTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageTransformer.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageTransformer.h; sourceTree = "<group>"; };
+		7BD8642942CA695FA2DCBFFD75264886 /* BU_SDWebImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageDefine.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageDefine.h; sourceTree = "<group>"; };
+		7BF99F6B93CD7D3841FF4E82A166A2EF /* BUTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUTimer.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUTimer.h; sourceTree = "<group>"; };
+		7C2A4E0D2921B2CB8B45DDD0EF0FA427 /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BUAdSDK.framework; path = BUAdSDK/BUAdSDK.framework; sourceTree = "<group>"; };
+		7C7DF8D25E1E2EAC8F9A28EF2154F02C /* BUAdSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BUAdSDK.debug.xcconfig; sourceTree = "<group>"; };
+		7C8F4223A4F3D934B0395FB0014FEBED /* BU_AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_AFURLResponseSerialization.h; path = Frameworks/SDK/BURelyFoundationAFN/Headers/BU_AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7D3021FF0D055DA87F22FACFDCDF0B25 /* NSObject+BUUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BUUtils.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSObject+BUUtils.h"; sourceTree = "<group>"; };
+		7DCCB2E04216E4AFEE5894836878AC0E /* NSObject+BUYYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BUYYModel.h"; path = "Frameworks/SDK/BURelyFoundationYYModel/Headers/NSObject+BUYYModel.h"; sourceTree = "<group>"; };
+		7E2A9EE6917B4ACFB74570654531EAAE /* UIViewController+BUUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+BUUtilities.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/UIViewController+BUUtilities.h"; sourceTree = "<group>"; };
+		820532EAD9C126BAFA8DD7C676EC7FC6 /* BUPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUPersistence.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUPersistence.h; sourceTree = "<group>"; };
+		82720B4D71A8490B83B23B0697602DC4 /* BUThreadSafeMutableArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUThreadSafeMutableArray.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUThreadSafeMutableArray.h; sourceTree = "<group>"; };
+		83DCAC34D5F410E776738947CF007271 /* BU_SDImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageCoder.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageCoder.h; sourceTree = "<group>"; };
+		84DF9331A3D3DEF5BA89B018161E0084 /* BUJSBDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUJSBDefine.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUJSBDefine.h; sourceTree = "<group>"; };
+		850433F609C410407B9F3F15AB048625 /* BU_SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageOperation.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageOperation.h; sourceTree = "<group>"; };
+		850EB2B4728B87B303B5DBC78DB8F1D8 /* BURelyFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BURelyFoundation.release.xcconfig; sourceTree = "<group>"; };
+		8883A704191581E22590460382CA2A6A /* BU_ZFPlayerControlView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_ZFPlayerControlView.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BU_ZFPlayerControlView.h; sourceTree = "<group>"; };
+		889E863A92CF1BDDECF728EAE28D07D5 /* NSData+BUImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+BUImageContentType.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/NSData+BUImageContentType.h"; sourceTree = "<group>"; };
+		88A252904C7C662DC8936EAEA9E265F2 /* NSArray+BUUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+BUUtilities.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSArray+BUUtilities.h"; sourceTree = "<group>"; };
+		8AD0ADC53FAA3199CC6DCFB94D657EA6 /* libBURelyFoundationYYModel.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationYYModel.a; path = Frameworks/SDK/BURelyFoundationYYModel/libBURelyFoundationYYModel.a; sourceTree = "<group>"; };
+		8B49FAF7198067D20BF7DC0C39625E52 /* UIImage+BUForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BUForceDecode.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIImage+BUForceDecode.h"; sourceTree = "<group>"; };
+		8B9F5F953E0DE2A46802ED7E13716B69 /* BU_SDWebImageDownloaderRequestModifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageDownloaderRequestModifier.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageDownloaderRequestModifier.h; sourceTree = "<group>"; };
+		8C541BEAE4EC561E6B3BA7B96923CF7A /* UIImage+BUGIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BUGIF.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIImage+BUGIF.h"; sourceTree = "<group>"; };
+		8D393CBD2230FB47109AE3FF32302102 /* BUTNCServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUTNCServiceManager.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUTNCServiceManager.h; sourceTree = "<group>"; };
+		8D9424B6093EAB7F2697F216B2DE4633 /* BUDownloadSpeedServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUDownloadSpeedServer.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUDownloadSpeedServer.h; sourceTree = "<group>"; };
+		8DBBCBF0CF444E07F6139B465C5120E5 /* BU_AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_AFSecurityPolicy.h; path = Frameworks/SDK/BURelyFoundationAFN/Headers/BU_AFSecurityPolicy.h; sourceTree = "<group>"; };
+		8E14116371EE30D0C18321406ADAD60B /* BU_SDmetamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDmetamacros.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDmetamacros.h; sourceTree = "<group>"; };
+		911A5DDED0118DC5FCDC082926EB9D3E /* BUJSBAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUJSBAuthorization.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUJSBAuthorization.h; sourceTree = "<group>"; };
+		91B7B1C25DAF716AB616EF67D6CAEC20 /* BU_SDImageGIFCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageGIFCoderInternal.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageGIFCoderInternal.h; sourceTree = "<group>"; };
+		91BA6FE131CF3F16BD2706D2A88484D2 /* BU_SDWebImageCacheSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageCacheSerializer.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageCacheSerializer.h; sourceTree = "<group>"; };
+		925E37030169CE888CC5A29B705BD91B /* NSObject+BUSafeKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+BUSafeKVO.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSObject+BUSafeKVO.h"; sourceTree = "<group>"; };
+		956DB653CA60E4FDA56D149A251996F9 /* BUActionWorker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUActionWorker.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUActionWorker.h; sourceTree = "<group>"; };
+		964A47BF30F7F5028BFED16684444C94 /* BUWebImageDataCacheManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUWebImageDataCacheManager.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BUWebImageDataCacheManager.h; sourceTree = "<group>"; };
+		97714603216B25B53ED8DA3EB926E7C9 /* BUJSInjector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUJSInjector.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUJSInjector.h; sourceTree = "<group>"; };
+		9CD017589260A0BD9A066A8774F7EA63 /* BUVideoPrefetchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUVideoPrefetchManager.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUVideoPrefetchManager.h; sourceTree = "<group>"; };
+		9D13832AC8B310911B3960BA50DE2C30 /* BU_SDImageGraphics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageGraphics.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageGraphics.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A44C3E2C0CEF923C25062040E2D9118B /* BU_SDInternalMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDInternalMacros.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDInternalMacros.h; sourceTree = "<group>"; };
+		A536323A5861A359926138A39714C9E7 /* UIImage+BUMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+BUMetadata.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/UIImage+BUMetadata.h"; sourceTree = "<group>"; };
+		A83943A891D0A3E82A84FFBB945C7FC0 /* BURelyFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BURelyFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		B1F2EED817A67497B0DC211DE7A4085F /* CSJAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CSJAdSDK.framework; path = SDK/CSJAdSDK.framework; sourceTree = "<group>"; };
+		B32680D767ECB03B318F606039A8963D /* libBURelyFoundationGecko.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationGecko.a; path = Frameworks/SDK/BURelyFoundationGecko/libBURelyFoundationGecko.a; sourceTree = "<group>"; };
+		B38A60F2726D5FE860236163274E7024 /* BURexxarEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BURexxarEngine.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BURexxarEngine.h; sourceTree = "<group>"; };
+		B3D3B3C7E9C3F5522551CC18F0BE10D9 /* BU_SDImageAPNGCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageAPNGCoderInternal.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageAPNGCoderInternal.h; sourceTree = "<group>"; };
+		B57479457FA31F279987AA99002DDC9D /* UIImageView+BU_ZFCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+BU_ZFCache.h"; path = "Frameworks/SDK/BURelyFoundationZFPlayer/Headers/UIImageView+BU_ZFCache.h"; sourceTree = "<group>"; };
+		B5BC708E1456064ECD5373E2431F8A91 /* NSDictionary+BUUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+BUUtilities.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSDictionary+BUUtilities.h"; sourceTree = "<group>"; };
+		B60E4818D53E51BDC30BC9A62F66438A /* NSString+BUAddtion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+BUAddtion.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSString+BUAddtion.h"; sourceTree = "<group>"; };
+		BAD66CAECE97A11C38E6FDA004CB50F0 /* BU_SDImageLoader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageLoader.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageLoader.h; sourceTree = "<group>"; };
+		BC1FF48FE02561F644D271EE331D2D87 /* BU_SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageCompat.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageCompat.h; sourceTree = "<group>"; };
+		BCE0CC5C675D4A6F011D57A1BCF0CB23 /* BUYYModelHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUYYModelHeader.h; path = Frameworks/SDK/BURelyFoundationYYModel/Headers/BUYYModelHeader.h; sourceTree = "<group>"; };
+		BD8A6536484E9A7DA6000F6417F8B071 /* BU_SDImageAPNGCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageAPNGCoder.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageAPNGCoder.h; sourceTree = "<group>"; };
+		BF18F23B88A95A46FCE74B92950421CC /* libBURelyFoundationZip.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationZip.a; path = Frameworks/SDK/BURelyFoundationZip/libBURelyFoundationZip.a; sourceTree = "<group>"; };
+		C1B3847F2F042F4C0413386EB36D0361 /* BUQueueManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUQueueManager.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUQueueManager.h; sourceTree = "<group>"; };
+		C24B755F035C9EABC278ABBDCE11F35C /* BUScreenHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUScreenHelper.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUScreenHelper.h; sourceTree = "<group>"; };
+		C37A2ECE8F7372F19E4E0A3DA7392C67 /* BU_SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageManager.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageManager.h; sourceTree = "<group>"; };
+		C52CE58596270F823088A0F0F600CB5D /* BUGifImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUGifImage.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUGifImage.h; sourceTree = "<group>"; };
+		C694DE63ED5EAB66E3CA6D184271692B /* Pods-Demo */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-Demo"; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6F4795FCD8B9E2D7B9C2B4EBFDAFCD0 /* NSKeyedArchiver+BUKeyedArchiver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSKeyedArchiver+BUKeyedArchiver.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSKeyedArchiver+BUKeyedArchiver.h"; sourceTree = "<group>"; };
+		C92D0012A6484E6DB0D8371211F86F34 /* BU_SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageCacheConfig.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageCacheConfig.h; sourceTree = "<group>"; };
+		CA62F109A2C22FC77EA8C47777AA9B4C /* BURelyFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BURelyFoundation.h; path = Frameworks/SDK/BURelyFoundationHeader/Headers/BURelyFoundation.h; sourceTree = "<group>"; };
+		CB294969EC3D45F9AFE793A30DDD993A /* BU_AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_AFURLRequestSerialization.h; path = Frameworks/SDK/BURelyFoundationAFN/Headers/BU_AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CC32294A7C88D5C8837E9A541273EA49 /* BUGeckoHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUGeckoHeader.h; path = Frameworks/SDK/BURelyFoundationGecko/Headers/BUGeckoHeader.h; sourceTree = "<group>"; };
+		CE2BB15482F9509458A0C465DE055C19 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D16DDE03C3B5CDF0CDE6E88E57ADC6D9 /* BUWebViewDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUWebViewDefine.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUWebViewDefine.h; sourceTree = "<group>"; };
+		D62467A21F74C9BB4D002E7A3711474B /* BUSVGKitHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUSVGKitHeader.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BUSVGKitHeader.h; sourceTree = "<group>"; };
+		D6D618FBC98AB95AE092605F5CD304D8 /* BUStaticPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUStaticPlugin.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUStaticPlugin.h; sourceTree = "<group>"; };
+		D70C171610E38FFB484D1F6CC9C7EBA0 /* BUAFNetworkingHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUAFNetworkingHeader.h; path = Frameworks/SDK/BURelyFoundationAFN/Headers/BUAFNetworkingHeader.h; sourceTree = "<group>"; };
+		D84C63C79BB1630BB8234559C2561D7D /* BU_SDImageCacheDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDImageCacheDefine.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDImageCacheDefine.h; sourceTree = "<group>"; };
+		D9191CD80147908CBFF7A3B6E0DCC0BF /* BU_RelyWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_RelyWeakProxy.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BU_RelyWeakProxy.h; sourceTree = "<group>"; };
+		DB1B6042A9516900ABA7A10DEDC3C3D5 /* UIColor+BUTheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BUTheme.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/UIColor+BUTheme.h"; sourceTree = "<group>"; };
+		DE6FD1B7475F5ED5D41D919481B6FD7C /* BU_SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageIndicator.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageIndicator.h; sourceTree = "<group>"; };
+		E00FF0F7D635396ACCFC6A2601459240 /* libBURelyFoundationZFPlayer.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationZFPlayer.a; path = Frameworks/SDK/BURelyFoundationZFPlayer/libBURelyFoundationZFPlayer.a; sourceTree = "<group>"; };
+		E1EC5A694C6D88983C4D89A9AC29A6F3 /* BUQueueManagerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUQueueManagerConfig.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUQueueManagerConfig.h; sourceTree = "<group>"; };
+		E2B4202A99B8682DDB98D3136B04E9FE /* BU_SDWebImageOptionsProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImageOptionsProcessor.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImageOptionsProcessor.h; sourceTree = "<group>"; };
+		E5A416FC3AB007673E8F79CBA1AE9D58 /* BUPlayerSettingsProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUPlayerSettingsProtocol.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUPlayerSettingsProtocol.h; sourceTree = "<group>"; };
+		E6700B079F562B5888877F5333535846 /* BUGeckoPreloadManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUGeckoPreloadManager.h; path = Frameworks/SDK/BURelyFoundationGecko/Headers/BUGeckoPreloadManager.h; sourceTree = "<group>"; };
+		E8BCC3900C6F5F1A67D95EAB3EFF09AF /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
+		E9D35C4DAD3D53868B92C56785316ECB /* BUPlayerDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUPlayerDefine.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUPlayerDefine.h; sourceTree = "<group>"; };
+		EA543AAD4E08AE919C494549ABD13297 /* NSJSONSerialization+BUSafeSerializaiton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+BUSafeSerializaiton.h"; path = "Frameworks/SDK/BURelyFoundationFoundation/Headers/NSJSONSerialization+BUSafeSerializaiton.h"; sourceTree = "<group>"; };
+		EC7C3ED219803E52B0B3461CD021F0F0 /* BULogManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BULogManager.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BULogManager.h; sourceTree = "<group>"; };
+		ED633724C0ED133E8A8C1A7B1B266BFC /* CSJAdSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CSJAdSDK.bundle; path = SDK/CSJAdSDK.bundle; sourceTree = "<group>"; };
+		F00DC40A5D70A05A2B03CCA486C4B15A /* BUAdSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BUAdSDK.release.xcconfig; sourceTree = "<group>"; };
+		F376923CA1D5D0E999BA46462F34D8E7 /* BUTNCNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUTNCNetwork.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUTNCNetwork.h; sourceTree = "<group>"; };
+		F49CEDA066246445EE98D95D58DA0B12 /* BUPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUPlayer.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BUPlayer.h; sourceTree = "<group>"; };
+		F5BA9463600327774CF3A8B63D0872CA /* BU_AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_AFHTTPSessionManager.h; path = Frameworks/SDK/BURelyFoundationAFN/Headers/BU_AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		F6FB8E0CD1D08E0D22E95B1151635A23 /* BUNetWorkHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUNetWorkHeader.h; path = Frameworks/SDK/BURelyFoundationNETWork/Headers/BUNetWorkHeader.h; sourceTree = "<group>"; };
+		F6FF13E1156573F6E98B75610A46D2F0 /* libBURelyFoundationNETWork.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationNETWork.a; path = Frameworks/SDK/BURelyFoundationNETWork/libBURelyFoundationNETWork.a; sourceTree = "<group>"; };
+		F72431F365C6DEE59DCFA28EE6606AC4 /* libBURelyFoundationSDWebImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libBURelyFoundationSDWebImage.a; path = Frameworks/SDK/BURelyFoundationSDWebImage/libBURelyFoundationSDWebImage.a; sourceTree = "<group>"; };
+		F782778C0E78B464967A54F54643198E /* BUDynamicPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUDynamicPlugin.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUDynamicPlugin.h; sourceTree = "<group>"; };
+		F7A60A1FB6934C32F428DBF1FE358103 /* BUFoundationHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUFoundationHeader.h; path = Frameworks/SDK/BURelyFoundationFoundation/Headers/BUFoundationHeader.h; sourceTree = "<group>"; };
+		FB4010DBB815440DCEA2BF8BA687A3E2 /* BU_SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDWebImagePrefetcher.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		FB69977842F42FA8A57310904D363825 /* BU_SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_SDAnimatedImageRep.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BU_SDAnimatedImageRep.h; sourceTree = "<group>"; };
+		FB94C58A52B754CD8391CA330CC73FB5 /* BU_ZFPlayerControlViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BU_ZFPlayerControlViewDelegate.h; path = Frameworks/SDK/BURelyFoundationZFPlayer/Headers/BU_ZFPlayerControlViewDelegate.h; sourceTree = "<group>"; };
+		FC29E3EE24DE28F5B9C9B27FEDF3628C /* BUSDWebImageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUSDWebImageHeader.h; path = Frameworks/SDK/BURelyFoundationSDWebImage/Headers/BUSDWebImageHeader.h; sourceTree = "<group>"; };
+		FF57CF4B39DF16D38E5AB00FBDAB9EAF /* BUZipHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BUZipHeader.h; path = Frameworks/SDK/BURelyFoundationZip/Headers/BUZipHeader.h; sourceTree = "<group>"; };
+		FF9EDA29E0D06DF3376A293A4AC797AD /* NSImage+BUCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+BUCompatibility.h"; path = "Frameworks/SDK/BURelyFoundationSDWebImage/Headers/NSImage+BUCompatibility.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4364F63F3AB1A845A93FF6A5446072EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FC0724E572993654D76B4B672BD906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				690D117130453EE0AFAEE85806AD519B /* libHM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12662DCE40904CCBB038687260A8A89C /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				D9191CD80147908CBFF7A3B6E0DCC0BF /* BU_RelyWeakProxy.h */,
+				14FC51DB20F5D97980429CEDAF2D8BEF /* BUCommonMacros.h */,
+				138352C3CE5E97A6FEB383992E3B835B /* BUConditionTracker.h */,
+				7692595ED9FFB2D75E2469E5054F43C2 /* BUDeviceHelper.h */,
+				F782778C0E78B464967A54F54643198E /* BUDynamicPlugin.h */,
+				238FB3014C683E8486FC3F18D7C90CB5 /* BUEnvironment.h */,
+				22AEB017594C63F9549ADA3A647A6410 /* BUFoundationAddress.h */,
+				F7A60A1FB6934C32F428DBF1FE358103 /* BUFoundationHeader.h */,
+				C52CE58596270F823088A0F0F600CB5D /* BUGifImage.h */,
+				0A88F86FC349233FEA49FB04E6A6EF06 /* BUGifImageView.h */,
+				911A5DDED0118DC5FCDC082926EB9D3E /* BUJSBAuthorization.h */,
+				2DDB880E7F450E307687168739990F5D /* BUJSBCommand.h */,
+				84DF9331A3D3DEF5BA89B018161E0084 /* BUJSBDefine.h */,
+				4675AFC1C03E354D3398A9AEAE07AE98 /* BUJSBForwarding.h */,
+				97714603216B25B53ED8DA3EB926E7C9 /* BUJSInjector.h */,
+				1B0EBFDA2D80D0B051445B83405E5732 /* BUJSInjectorRule.h */,
+				0D10400DD78B626EF8966243FDBF7022 /* BULogMacros.h */,
+				EC7C3ED219803E52B0B3461CD021F0F0 /* BULogManager.h */,
+				257C791AD48D7442E63C62C0BEDD567C /* BUNetworkRequest.h */,
+				820532EAD9C126BAFA8DD7C676EC7FC6 /* BUPersistence.h */,
+				C1B3847F2F042F4C0413386EB36D0361 /* BUQueueManager.h */,
+				E1EC5A694C6D88983C4D89A9AC29A6F3 /* BUQueueManagerConfig.h */,
+				68A8BC01E582DAE7D13AC767BFB7FB92 /* BUReachability.h */,
+				B38A60F2726D5FE860236163274E7024 /* BURexxarEngine.h */,
+				19610B69F49BF024EA7234F260191B86 /* BURouter.h */,
+				22156B7437940D5DB563BAE1EAA3EEAC /* BURuntimeUtil.h */,
+				C24B755F035C9EABC278ABBDCE11F35C /* BUScreenHelper.h */,
+				D6D618FBC98AB95AE092605F5CD304D8 /* BUStaticPlugin.h */,
+				60071EB8E3C719D6DE9146418D740851 /* BUThreadSafeDictionary.h */,
+				82720B4D71A8490B83B23B0697602DC4 /* BUThreadSafeMutableArray.h */,
+				7BF99F6B93CD7D3841FF4E82A166A2EF /* BUTimer.h */,
+				F376923CA1D5D0E999BA46462F34D8E7 /* BUTNCNetwork.h */,
+				204AD884BA301BCBF3F18B5FF848A76F /* BUTNCRequest.h */,
+				310C6F3E1304FBB563B31464BF2FE954 /* BUTNCRequestParam.h */,
+				8D393CBD2230FB47109AE3FF32302102 /* BUTNCServiceManager.h */,
+				65B3C1D8B7A220F7014D1FEDAC9BAF76 /* BUUserAgentHelper.h */,
+				1015CC6843EED8B82E84ED840AEB47C4 /* BUWebViewApplication.h */,
+				D16DDE03C3B5CDF0CDE6E88E57ADC6D9 /* BUWebViewDefine.h */,
+				57FFE1E306D4E96140531BB911B4E7F6 /* BUWebViewProgressView.h */,
+				26F8271D2E3D59118FA815EE4B4C9218 /* BUWKWebView.h */,
+				88A252904C7C662DC8936EAEA9E265F2 /* NSArray+BUUtilities.h */,
+				67828C390A1918A957C55280FC91A783 /* NSDate+BUCommon.h */,
+				B5BC708E1456064ECD5373E2431F8A91 /* NSDictionary+BUUtilities.h */,
+				EA543AAD4E08AE919C494549ABD13297 /* NSJSONSerialization+BUSafeSerializaiton.h */,
+				C6F4795FCD8B9E2D7B9C2B4EBFDAFCD0 /* NSKeyedArchiver+BUKeyedArchiver.h */,
+				925E37030169CE888CC5A29B705BD91B /* NSObject+BUSafeKVO.h */,
+				7D3021FF0D055DA87F22FACFDCDF0B25 /* NSObject+BUUtils.h */,
+				B60E4818D53E51BDC30BC9A62F66438A /* NSString+BUAddtion.h */,
+				39B2C27682CA67DC8429E06DF0436D0F /* NSTimer+BUBlockSupport.h */,
+				583A9AA691E0E9E0BFD656A112501C83 /* NSUserDefaults+BUCrypt.h */,
+				DB1B6042A9516900ABA7A10DEDC3C3D5 /* UIColor+BUTheme.h */,
+				242A6E3EAAB5A551AFA24AEBB0290AA1 /* UIImage+BUCommon.h */,
+				4E39BE2E60081C59B327A7DB81F4C92D /* UIView+BUAdditions.h */,
+				7E2A9EE6917B4ACFB74570654531EAAE /* UIViewController+BUUtilities.h */,
+				395C9DAE848A8E527570E2A68200EB80 /* UIWindow+BUUtilities.h */,
+				9A7AD7EC4CBEBB11CA8E2D03F770BE64 /* Frameworks */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		1667166AEA6517867E66A146A1B320DE /* Gecko */ = {
+			isa = PBXGroup;
+			children = (
+				CC32294A7C88D5C8837E9A541273EA49 /* BUGeckoHeader.h */,
+				E6700B079F562B5888877F5333535846 /* BUGeckoPreloadManager.h */,
+				1D3587CFC93CFB8CE50411809B088EB1 /* Frameworks */,
+			);
+			name = Gecko;
+			sourceTree = "<group>";
+		};
+		1A079114B7C3F471110984E6CB8C1018 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1F2EED817A67497B0DC211DE7A4085F /* CSJAdSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A64BB79670813CBD43CF9EE2C4BC9CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C694DE63ED5EAB66E3CA6D184271692B /* Pods-Demo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D3587CFC93CFB8CE50411809B088EB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32680D767ECB03B318F606039A8963D /* libBURelyFoundationGecko.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D78CDE92F971C74188FF03574C5FD5A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A83943A891D0A3E82A84FFBB945C7FC0 /* BURelyFoundation.debug.xcconfig */,
+				850EB2B4728B87B303B5DBC78DB8F1D8 /* BURelyFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BURelyFoundation";
+			sourceTree = "<group>";
+		};
+		3E298F5DE3122AA3BB2D15EC759CE706 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				162A846380723A1F40EA26C30EF31EEC /* BU_ZipArchiveUtility.h */,
+				232258A62092FE10444B459DB6B4905E /* BUZipCommon.h */,
+				FF57CF4B39DF16D38E5AB00FBDAB9EAF /* BUZipHeader.h */,
+				6F5EA06215FECFE78CC80D657A1E595D /* Frameworks */,
+			);
+			name = Zip;
+			sourceTree = "<group>";
+		};
+		3F173CAC1EBA409023FC7B9676F8BC1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7BC2D4EB87C5BABC008B9690D320986 /* Ads-CN */,
+				C59DC064A19A51FF27A0F1B321F84BB9 /* BUAdSDK */,
+				B0617064F506A3152D8840E2B6250D31 /* BURelyFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		450D030AFDF348BE2BF9F833B30E2F75 /* NETWork */ = {
+			isa = PBXGroup;
+			children = (
+				29603F12E3D40C2B43639CF3F23D00A2 /* BUBaseRequest.h */,
+				754B20F79CE24D568BD8E9FC589C461B /* BUNetworkAgent.h */,
+				F6FB8E0CD1D08E0D22E95B1151635A23 /* BUNetWorkHeader.h */,
+				B11655CF45EA2AB0D61FC796F44F6B6F /* Frameworks */,
+			);
+			name = NETWork;
+			sourceTree = "<group>";
+		};
+		498946D8F90DF248D1BECB3DBB8D24AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C7DF8D25E1E2EAC8F9A28EF2154F02C /* BUAdSDK.debug.xcconfig */,
+				F00DC40A5D70A05A2B03CCA486C4B15A /* BUAdSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BUAdSDK";
+			sourceTree = "<group>";
+		};
+		55A8081F03AFE610E80012208C77CBE7 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				F5BA9463600327774CF3A8B63D0872CA /* BU_AFHTTPSessionManager.h */,
+				8DBBCBF0CF444E07F6139B465C5120E5 /* BU_AFSecurityPolicy.h */,
+				CB294969EC3D45F9AFE793A30DDD993A /* BU_AFURLRequestSerialization.h */,
+				7C8F4223A4F3D934B0395FB0014FEBED /* BU_AFURLResponseSerialization.h */,
+				006F6DAE4D744086D8E13CC7504CDB3B /* BU_AFURLSessionManager.h */,
+				D70C171610E38FFB484D1F6CC9C7EBA0 /* BUAFNetworkingHeader.h */,
+				B87A4CE2FC59409E3D6BE27B4E7E9B64 /* Frameworks */,
+			);
+			name = AFNetworking;
+			sourceTree = "<group>";
+		};
+		5BE3610C5FB00F6C43B2ABAFB53DEE94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C2A4E0D2921B2CB8B45DDD0EF0FA427 /* BUAdSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B52B72BC81B465F46A60FFEC0202EC9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80B0AB5FB9F725DE979EB586DAC3964D /* Pods-Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6ED618F7FDA6A97D5CB468FFDEAE5B8F /* BUAdSDK_Compatible */ = {
+			isa = PBXGroup;
+			children = (
+				1A079114B7C3F471110984E6CB8C1018 /* Frameworks */,
+				A4671A45D85D0D27F153BAD56E14E790 /* Resources */,
+			);
+			name = BUAdSDK_Compatible;
+			sourceTree = "<group>";
+		};
+		6F5EA06215FECFE78CC80D657A1E595D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF18F23B88A95A46FCE74B92950421CC /* libBURelyFoundationZip.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71117C8EEFEF8E50320B46BDCC5BF7D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B7C86EBB15A3A36D256F3B0899C038A /* Ads-CN.debug.xcconfig */,
+				5EE2A45744B14958987177327225FFB9 /* Ads-CN.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ads-CN";
+			sourceTree = "<group>";
+		};
+		72C602BF9E17F93A9B1825874601C7BB /* BUAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3610C5FB00F6C43B2ABAFB53DEE94 /* Frameworks */,
+			);
+			name = BUAdSDK;
+			sourceTree = "<group>";
+		};
+		80B0AB5FB9F725DE979EB586DAC3964D /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				185F3280F6C473E58F4915EDF337D1D2 /* Pods-Demo-acknowledgements.markdown */,
+				257EF127A96A906630B3C1D7B1EA898F /* Pods-Demo-acknowledgements.plist */,
+				60DDE35F69714F9EEBA5E990B49B9DDA /* Pods-Demo-dummy.m */,
+				E8BCC3900C6F5F1A67D95EAB3EFF09AF /* Pods-Demo-resources.sh */,
+				CE2BB15482F9509458A0C465DE055C19 /* Pods-Demo.debug.xcconfig */,
+				1735BFD94E6BD7B6A321158B5283027A /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+		915607C887BF58F7A7438C1B03A1F02B /* ZFPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				3CD0AA71D8DDE3A945F7BF6B5B704C15 /* BU_ZFPlayer.h */,
+				8883A704191581E22590460382CA2A6A /* BU_ZFPlayerControlView.h */,
+				FB94C58A52B754CD8391CA330CC73FB5 /* BU_ZFPlayerControlViewDelegate.h */,
+				956DB653CA60E4FDA56D149A251996F9 /* BUActionWorker.h */,
+				5AC48FFFDB0A0D7E94D63880E94235A6 /* BUAudioSessionHandler.h */,
+				23DF67EF3437C51296E23998F75BFCE6 /* BUCacheManager.h */,
+				8D9424B6093EAB7F2697F216B2DE4633 /* BUDownloadSpeedServer.h */,
+				F49CEDA066246445EE98D95D58DA0B12 /* BUPlayer.h */,
+				E9D35C4DAD3D53868B92C56785316ECB /* BUPlayerDefine.h */,
+				6E8D98F428B2AD9D13528F7DCCB5B751 /* BUPlayerInternalDefine.h */,
+				364B9B5D4180E2AB2B38E64AE29184EC /* BUPlayerItem.h */,
+				E5A416FC3AB007673E8F79CBA1AE9D58 /* BUPlayerSettingsProtocol.h */,
+				9CD017589260A0BD9A066A8774F7EA63 /* BUVideoPrefetchManager.h */,
+				B57479457FA31F279987AA99002DDC9D /* UIImageView+BU_ZFCache.h */,
+				BE5D5B83B9791F9A4AC0A69B18F36D80 /* Frameworks */,
+			);
+			name = ZFPlayer;
+			sourceTree = "<group>";
+		};
+		942E7B18F8F2EB471939C12237957F84 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				5D6796D7BE06E1AB645D908D86E34789 /* BU_SDAnimatedImage.h */,
+				FB69977842F42FA8A57310904D363825 /* BU_SDAnimatedImageRep.h */,
+				1D48DC06CC2AE8A5893975F0414002D1 /* BU_SDAsyncBlockOperation.h */,
+				302DDF1F1326BBA8E6FDD0A8EF85B03F /* BU_SDDiskCache.h */,
+				BD8A6536484E9A7DA6000F6417F8B071 /* BU_SDImageAPNGCoder.h */,
+				B3D3B3C7E9C3F5522551CC18F0BE10D9 /* BU_SDImageAPNGCoderInternal.h */,
+				0B8A471A414452D4F7E5516A47503170 /* BU_SDImageAssetManager.h */,
+				2C11A92AC8EF3DBA16A73972C3AC8DB3 /* BU_SDImageCache.h */,
+				C92D0012A6484E6DB0D8371211F86F34 /* BU_SDImageCacheConfig.h */,
+				D84C63C79BB1630BB8234559C2561D7D /* BU_SDImageCacheDefine.h */,
+				51DDD80011CA0689B4A562438AC0C943 /* BU_SDImageCachesManager.h */,
+				76CE60D4A6B439E22416206807A950D6 /* BU_SDImageCachesManagerOperation.h */,
+				83DCAC34D5F410E776738947CF007271 /* BU_SDImageCoder.h */,
+				65D7E58740B12E9D1C0059D261506521 /* BU_SDImageCoderHelper.h */,
+				154A6494DB34406A4EC08999A9B3E718 /* BU_SDImageCodersManager.h */,
+				0393D8AF37F53AF02CA38661D1355B6E /* BU_SDImageFrame.h */,
+				1A6232ADDEF9FAD54B5491243E0530B4 /* BU_SDImageGIFCoder.h */,
+				91B7B1C25DAF716AB616EF67D6CAEC20 /* BU_SDImageGIFCoderInternal.h */,
+				9D13832AC8B310911B3960BA50DE2C30 /* BU_SDImageGraphics.h */,
+				58C646A878F5D9FB4AB2F334E2CC5E1B /* BU_SDImageIOCoder.h */,
+				BAD66CAECE97A11C38E6FDA004CB50F0 /* BU_SDImageLoader.h */,
+				1EFFE737E84B0FC51A04B49A27E4C050 /* BU_SDImageLoadersManager.h */,
+				14EE9097DA97413D48070D8A79EEEE23 /* BU_SDImageSVGKCoder.h */,
+				78659B7E9015076894B2F40FE48FB2B4 /* BU_SDImageTransformer.h */,
+				A44C3E2C0CEF923C25062040E2D9118B /* BU_SDInternalMacros.h */,
+				16F0049187D0A8964C30CFFA3B13DDFE /* BU_SDMemoryCache.h */,
+				8E14116371EE30D0C18321406ADAD60B /* BU_SDmetamacros.h */,
+				30E16A53E3CBEF66256FDDA13485A376 /* BU_SDWeakProxy.h */,
+				14379037891A6C37EE0FBC724057F784 /* BU_SDWebImageCacheKeyFilter.h */,
+				91BA6FE131CF3F16BD2706D2A88484D2 /* BU_SDWebImageCacheSerializer.h */,
+				BC1FF48FE02561F644D271EE331D2D87 /* BU_SDWebImageCompat.h */,
+				7BD8642942CA695FA2DCBFFD75264886 /* BU_SDWebImageDefine.h */,
+				6EA38CF3BD0E9C4B8183B55CFA19BC62 /* BU_SDWebImageDownloader.h */,
+				66E61971642593E7C7655FB6B1760F85 /* BU_SDWebImageDownloaderConfig.h */,
+				18E6798D01D7ECC4CE981BC21907C242 /* BU_SDWebImageDownloaderOperation.h */,
+				8B9F5F953E0DE2A46802ED7E13716B69 /* BU_SDWebImageDownloaderRequestModifier.h */,
+				03E30FB393C99A9085C59C48F595CE7A /* BU_SDWebImageError.h */,
+				DE6FD1B7475F5ED5D41D919481B6FD7C /* BU_SDWebImageIndicator.h */,
+				C37A2ECE8F7372F19E4E0A3DA7392C67 /* BU_SDWebImageManager.h */,
+				850433F609C410407B9F3F15AB048625 /* BU_SDWebImageOperation.h */,
+				E2B4202A99B8682DDB98D3136B04E9FE /* BU_SDWebImageOptionsProcessor.h */,
+				FB4010DBB815440DCEA2BF8BA687A3E2 /* BU_SDWebImagePrefetcher.h */,
+				0208BC42BF9FBDBDDF525F7A0572FEAB /* BU_SDWebImageTransition.h */,
+				FC29E3EE24DE28F5B9C9B27FEDF3628C /* BUSDWebImageHeader.h */,
+				D62467A21F74C9BB4D002E7A3711474B /* BUSVGKitHeader.h */,
+				964A47BF30F7F5028BFED16684444C94 /* BUWebImageDataCacheManager.h */,
+				651CB5FDB8A4FF538EF9A1E96C54E0ED /* NSBezierPath+BURoundedCorners.h */,
+				2B1A2013BD085FA700B78AE8BE15B278 /* NSButton+BUWebCache.h */,
+				889E863A92CF1BDDECF728EAE28D07D5 /* NSData+BUImageContentType.h */,
+				FF9EDA29E0D06DF3376A293A4AC797AD /* NSImage+BUCompatibility.h */,
+				6F81FFFBF74C1FC9BB701BB356B0E14B /* UIButton+BUWebCache.h */,
+				5BCDF49F7F12B2A349F0E83C2FA5223D /* UIColor+BUHexString.h */,
+				8B49FAF7198067D20BF7DC0C39625E52 /* UIImage+BUForceDecode.h */,
+				8C541BEAE4EC561E6B3BA7B96923CF7A /* UIImage+BUGIF.h */,
+				049D3E3B250FEF55173F514CC2F8CF9C /* UIImage+BUMemoryCacheCost.h */,
+				A536323A5861A359926138A39714C9E7 /* UIImage+BUMetadata.h */,
+				619D639EFC3DFB059219E30B2B763CCF /* UIImage+BUMultiFormat.h */,
+				55D096A12F5D6DFCE90C9630A6FC9E5D /* UIImage+BUTransform.h */,
+				50A1FEE906AC29F2543CB7D50ADCF72E /* UIImageView+BUHighlightedWebCache.h */,
+				10367720EC46C7D4D28760F41C1DD9FC /* UIImageView+BUWebCache.h */,
+				49FFB49A22F6827388F019474BB53B12 /* UIView+BUWebCache.h */,
+				271045885C9C7E8701EF7F75F48DA0AA /* UIView+BUWebCacheOperation.h */,
+				E3CFD0B5064214E68DA8FC81D13F9FCF /* Frameworks */,
+			);
+			name = SDWebImage;
+			sourceTree = "<group>";
+		};
+		9A7AD7EC4CBEBB11CA8E2D03F770BE64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				118EBB5270762935AABFF14A06875717 /* libBURelyFoundationFoundation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4671A45D85D0D27F153BAD56E14E790 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED633724C0ED133E8A8C1A7B1B266BFC /* CSJAdSDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AD27E4DE92EE20ECADD47CBF0047D771 /* BURelyFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				CA62F109A2C22FC77EA8C47777AA9B4C /* BURelyFoundation.h */,
+				B1173F08EE78A2FF6653F0536D1A211A /* Frameworks */,
+			);
+			name = BURelyFoundation;
+			sourceTree = "<group>";
+		};
+		B0617064F506A3152D8840E2B6250D31 /* BURelyFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				55A8081F03AFE610E80012208C77CBE7 /* AFNetworking */,
+				AD27E4DE92EE20ECADD47CBF0047D771 /* BURelyFoundation */,
+				12662DCE40904CCBB038687260A8A89C /* Foundation */,
+				1667166AEA6517867E66A146A1B320DE /* Gecko */,
+				F7E30F698497F3804E77E4F40C2AB060 /* HM */,
+				450D030AFDF348BE2BF9F833B30E2F75 /* NETWork */,
+				942E7B18F8F2EB471939C12237957F84 /* SDWebImage */,
+				2D78CDE92F971C74188FF03574C5FD5A /* Support Files */,
+				E4DC5D6B569B8250A4A6FAE4D3C956E6 /* YYModel */,
+				915607C887BF58F7A7438C1B03A1F02B /* ZFPlayer */,
+				3E298F5DE3122AA3BB2D15EC759CE706 /* Zip */,
+			);
+			name = BURelyFoundation;
+			path = BURelyFoundation;
+			sourceTree = "<group>";
+		};
+		B11655CF45EA2AB0D61FC796F44F6B6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6FF13E1156573F6E98B75610A46D2F0 /* libBURelyFoundationNETWork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1173F08EE78A2FF6653F0536D1A211A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51E17A77B801445C44F9035905D0183C /* libBURelyFoundationHeader.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B5342124E854EB7D015E2280FB11DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD0ADC53FAA3199CC6DCFB94D657EA6 /* libBURelyFoundationYYModel.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B87A4CE2FC59409E3D6BE27B4E7E9B64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74694EA5A56D3A47CDC523113A4355AC /* libBURelyFoundationAFN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE5D5B83B9791F9A4AC0A69B18F36D80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E00FF0F7D635396ACCFC6A2601459240 /* libBURelyFoundationZFPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C59DC064A19A51FF27A0F1B321F84BB9 /* BUAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				72C602BF9E17F93A9B1825874601C7BB /* BUAdSDK */,
+				498946D8F90DF248D1BECB3DBB8D24AB /* Support Files */,
+			);
+			name = BUAdSDK;
+			path = BUAdSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				3F173CAC1EBA409023FC7B9676F8BC1E /* Pods */,
+				1A64BB79670813CBD43CF9EE2C4BC9CA /* Products */,
+				6B52B72BC81B465F46A60FFEC0202EC9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3CFD0B5064214E68DA8FC81D13F9FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F72431F365C6DEE59DCFA28EE6606AC4 /* libBURelyFoundationSDWebImage.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4DC5D6B569B8250A4A6FAE4D3C956E6 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				1205E9ADA78178DC79DEF441FF150A5A /* BUYYClassInfo.h */,
+				BCE0CC5C675D4A6F011D57A1BCF0CB23 /* BUYYModelHeader.h */,
+				7DCCB2E04216E4AFEE5894836878AC0E /* NSObject+BUYYModel.h */,
+				B5B5342124E854EB7D015E2280FB11DC /* Frameworks */,
+			);
+			name = YYModel;
+			sourceTree = "<group>";
+		};
+		E7BC2D4EB87C5BABC008B9690D320986 /* Ads-CN */ = {
+			isa = PBXGroup;
+			children = (
+				6ED618F7FDA6A97D5CB468FFDEAE5B8F /* BUAdSDK_Compatible */,
+				71117C8EEFEF8E50320B46BDCC5BF7D3 /* Support Files */,
+			);
+			name = "Ads-CN";
+			path = "Ads-CN";
+			sourceTree = "<group>";
+		};
+		F7E30F698497F3804E77E4F40C2AB060 /* HM */ = {
+			isa = PBXGroup;
+			children = (
+				02FC0724E572993654D76B4B672BD906 /* Frameworks */,
+			);
+			name = HM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B48A4A7F3A168997ED7506370FFD9736 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		380694B9ADC0CBB5D29A662EFE7F52C8 /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF0291FC921EB199FD863F843280CBA /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				B48A4A7F3A168997ED7506370FFD9736 /* Headers */,
+				FA9FEDEA0130CF2AB199E53EB3634720 /* Sources */,
+				4364F63F3AB1A845A93FF6A5446072EC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				506BFAC92046D3DD06840EA1C60A908C /* PBXTargetDependency */,
+				D40B4217E2B4ED339265C60ED4A9AF12 /* PBXTargetDependency */,
+				0858892159F4C691B4E050CFED5E8A0F /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = C694DE63ED5EAB66E3CA6D184271692B /* Pods-Demo */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1A64BB79670813CBD43CF9EE2C4BC9CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				726ABAA3B995C2690CAF752FB08ABF6D /* Ads-CN */,
+				0F579E3E153CBD596F3B5F69CBA65B1B /* BUAdSDK */,
+				A30112D48286DC34DCEF944BC33E1EC9 /* BURelyFoundation */,
+				380694B9ADC0CBB5D29A662EFE7F52C8 /* Pods-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA9FEDEA0130CF2AB199E53EB3634720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3C4C750F9B28F72AD892A8476738B2 /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0858892159F4C691B4E050CFED5E8A0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BURelyFoundation;
+			target = A30112D48286DC34DCEF944BC33E1EC9 /* BURelyFoundation */;
+			targetProxy = DC633147CB5A760067F69D1595A96F10 /* PBXContainerItemProxy */;
+		};
+		506BFAC92046D3DD06840EA1C60A908C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Ads-CN";
+			target = 726ABAA3B995C2690CAF752FB08ABF6D /* Ads-CN */;
+			targetProxy = BC37B4A1B56EE95CAB3D88B4241E214F /* PBXContainerItemProxy */;
+		};
+		8CB2527EBC21D495017481551DF0E765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BURelyFoundation;
+			target = A30112D48286DC34DCEF944BC33E1EC9 /* BURelyFoundation */;
+			targetProxy = 27DACD92EA06615C884EF0E22B1060D7 /* PBXContainerItemProxy */;
+		};
+		D40B4217E2B4ED339265C60ED4A9AF12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BUAdSDK;
+			target = 0F579E3E153CBD596F3B5F69CBA65B1B /* BUAdSDK */;
+			targetProxy = 8E990DD3034D4CE7572147A48C476BC4 /* PBXContainerItemProxy */;
+		};
+		F7B777DFA0ACC0C5D1944CF21E599687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BUAdSDK;
+			target = 0F579E3E153CBD596F3B5F69CBA65B1B /* BUAdSDK */;
+			targetProxy = C30ADD20C44F1F81C24E87A732C3BB2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		150AC4938E0FB965032EC8CFEB991B64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2BB15482F9509458A0C465DE055C19 /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B718D78279B4D0CA79CA8CEEE1958D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE2A45744B14958987177327225FFB9 /* Ads-CN.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		513AD31BC6299C864B61D291B97274EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C7DF8D25E1E2EAC8F9A28EF2154F02C /* BUAdSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A34DACFCC50E7ECB15D1C3C82AAECFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83943A891D0A3E82A84FFBB945C7FC0 /* BURelyFoundation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BAA176900DB715EF3530ED95E55813C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1735BFD94E6BD7B6A321158B5283027A /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		664B80B5CD68651C89A0D839D8E9E274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7C86EBB15A3A36D256F3B0899C038A /* Ads-CN.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8C0C0F0CA45B1612215C09F08B5207EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00DC40A5D70A05A2B03CCA486C4B15A /* BUAdSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD1B5B22B423FAD15142120F95E54D06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 850EB2B4728B87B303B5DBC78DB8F1D8 /* BURelyFoundation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF0291FC921EB199FD863F843280CBA /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150AC4938E0FB965032EC8CFEB991B64 /* Debug */,
+				5BAA176900DB715EF3530ED95E55813C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9377795273F8334AFFC68D922FA05A7 /* Build configuration list for PBXAggregateTarget "Ads-CN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664B80B5CD68651C89A0D839D8E9E274 /* Debug */,
+				2B718D78279B4D0CA79CA8CEEE1958D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D24D7FB89D400077893F73BF4C40BCEA /* Build configuration list for PBXAggregateTarget "BURelyFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A34DACFCC50E7ECB15D1C3C82AAECFC /* Debug */,
+				AD1B5B22B423FAD15142120F95E54D06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD0F383E66C68B975C6A1C2A675EF1E /* Build configuration list for PBXAggregateTarget "BUAdSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				513AD31BC6299C864B61D291B97274EE /* Debug */,
+				8C0C0F0CA45B1612215C09F08B5207EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
